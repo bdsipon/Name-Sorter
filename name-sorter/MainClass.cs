@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace name_sorter
 {
-    class Program
+    class MainClass
     {
         static void Main(string[] args)
         {

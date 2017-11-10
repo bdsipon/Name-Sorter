@@ -42,7 +42,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="FileChecker.cs" />
+    <Compile Include="INameWritter.cs" />
+    <Compile Include="ListProcessor.cs" />
+    <Compile Include="MainClass.cs" />
+    <Compile Include="Name.cs" />
+    <Compile Include="NameEqualityComparer.cs" />
+    <Compile Include="NameReader.cs" />
+    <Compile Include="NameSorter.cs" />
+    <Compile Include="NameWritterToConsole.cs" />
+    <Compile Include="NameWritterToFile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
