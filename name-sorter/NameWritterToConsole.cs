@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace name_sorter
 {
-    class NameWritterToConsole
+    public class NameWritterToConsole : INameWritter
     {
+        public void WriteNames(IEnumerable<Name> names)
+        {
+            names.ToList().ForEach(Console.WriteLine);
+        }
     }
 }

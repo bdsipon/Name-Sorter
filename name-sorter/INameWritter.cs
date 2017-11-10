@@ -8,5 +8,6 @@ namespace name_sorter
 {
     interface INameWritter
     {
+        void WriteNames(IEnumerable<Name> names);
     }
 }
