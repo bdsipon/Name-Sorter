@@ -5,19 +5,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace name_sorter
 {
-    public class NameWritterToFile:INameWritter
+    class NameWritterToFile : INameWritter
     {
-        private string outputFileName = "";
+        private string outputFileName = "output.txt";
+
         public NameWritterToFile(string outputFile)
         {
             this.outputFileName = outputFile;
         }
         public string OutputFileName
         {
-
             get { return outputFileName; }
+
             set
             {
                 outputFileName = value;

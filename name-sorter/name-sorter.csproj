@@ -42,7 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FileChecker.cs" />
     <Compile Include="INameWritter.cs" />
     <Compile Include="ListProcessor.cs" />
     <Compile Include="MainClass.cs" />
