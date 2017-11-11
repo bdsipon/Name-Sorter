@@ -10,7 +10,7 @@ namespace name_sorter
 {
     class NameWritterToFile : INameWritter
     {
-        private string outputFileName = "output.txt";
+        private string outputFileName = "";
 
         public NameWritterToFile(string outputFile)
         {
