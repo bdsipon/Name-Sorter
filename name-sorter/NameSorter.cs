@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace name_sorter
 {
-    class NameSorter
+    public class NameSorter
     {
 
         public IEnumerable<Name> SortNameByFourthThenOthers(IEnumerable<Name> name)
