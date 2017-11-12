@@ -51,6 +51,7 @@
     <Compile Include="NameReaderUnitTest.cs" />
     <Compile Include="NameSorterUnitTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WriteToConsoleUnit.cs" />
     <Compile Include="WriteToFileUnitTest.cs" />
   </ItemGroup>
   <ItemGroup>
