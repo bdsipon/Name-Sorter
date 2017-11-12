@@ -39,7 +39,7 @@ namespace NameSorterUnitTest
 
             Assert.IsTrue(File.Exists(writer.OutputFileName));
             var lines = File.ReadAllLines(writer.OutputFileName);
-            //var expectedFileOutput = new string[] { "BAKER, THEODORE", "KENT, MADISON", "SMITH, ANDREW", "SMITH, FREDRICK" };
+           
 
             Assert.IsTrue(expectedFileOutput.SequenceEqual(lines));
         }
