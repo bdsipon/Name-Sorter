@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace name_sorter
 {
-    class NameWritterToFile : INameWritter
+    public class NameWritterToFile : INameWritter
     {
         private string outputFileName = "";
 
