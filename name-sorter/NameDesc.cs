@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace name_sorter
 {
-    public class NameSorter:ISort
+  public class NameDesc:ISort
     {
-
         public IEnumerable<Name> SortNameByFourthThenOthers(IEnumerable<Name> name)
         {
-            IEnumerable<Name> names = name.OrderBy(n => n.FourthName)
+            IEnumerable<Name> names = name.OrderByDescending(n => n.FourthName)
                                            .ThenBy(n => n.OtherName)
                                            .ThenBy(n => n.LastName)
                                            .ThenBy(n => n.FirstName);

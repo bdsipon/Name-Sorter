@@ -43,9 +43,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="INameWritter.cs" />
+    <Compile Include="ISort.cs" />
     <Compile Include="ListProcessor.cs" />
     <Compile Include="MainClass.cs" />
     <Compile Include="Name.cs" />
+    <Compile Include="NameDesc.cs" />
     <Compile Include="NameEqualityComparer.cs" />
     <Compile Include="NameReader.cs" />
     <Compile Include="NameSorter.cs" />
